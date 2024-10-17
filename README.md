@@ -19,7 +19,10 @@ The data used for this project is sourced from the KubAnomaly DataSet by GitHub 
 Installation and Setup:-----------------------------------
 Clone the Repository:
 
-git clone https://github.com/your-username/KubAnomaly-SFSOINN.git
+git clone https://github.com/Dencotexts/KubAnomaly-SFSOINN.git
+
+cd KubAnomaly-SFSOINN
+
 
 cd KubAnomaly-SFSOINN
 
