@@ -45,6 +45,7 @@ In my experiment I tested Complex data (to overload the algorrithms with both co
 
 SIMPLE DATASET (very simple data with the bruteforce adding sume little difficulties):--------------------
 ['./Data/DVWA_Normal.csv', './Data/DVWA_SQLInjection1.csv', './Data/DVWA_SQLInjection2.csv', './Data/DVWA_SQLInjection3.csv', './Data/wordPressNormalandAttack/NormalV1.1.csv',  './Data/brutforce/AttackV1.1.csv', './Data/brutforce/InsiderV1.1.csv']
+
 Notes
 This project is intended for educational and research purposes.
 Please cite the original KubAnomaly DataSet repository if you use this project in any publications.
