@@ -23,9 +23,6 @@ git clone https://github.com/Dencotexts/KubAnomaly-SFSOINN.git
 
 cd KubAnomaly-SFSOINN
 
-
-cd KubAnomaly-SFSOINN
-
 Install Python 3.11 or Above: Make sure Python 3.11 or a later version is installed on your system. You can download it from python.org.
 
 Install the Required Libraries: Run the following command to install all required libraries listed in the requirements.txt file:
@@ -42,6 +39,12 @@ Once the setup is complete, you can run the anomaly detection model as follows:
 python KubAnomaly-SFSOINN.py
 Make sure you are in the project directory where KubAnomaly-SFSOINN.py, SF_SOINN.py, and the Data folder are located. This will execute the KubAnomaly-SFSOINN model and begin the anomaly detection process.
 
+COMPLEX DATASET:--------------------
+In my experiment I tested Complex data (to overload the algorrithms with both complex and simple attacks where they are most vunerable to multiple vectors and performed poorest)
+['./Data/cmdinjection.csv', './Data/DVWA_Normal.csv', './Data/DVWA_SQLInjection1.csv', './Data/DVWA_SQLInjection2.csv', './Data/DVWA_SQLInjection3.csv', './Data/sqlinject.csv', './Data/wordPressNormalandAttack/NormalV1.1.csv', './Data/SqlandCommand/AttackV1.1.csv', './Data/SqlandCommand/InsiderSql.csv', './Data/SqlandCommand/NormalV1.2.csv', './Data/brutforce/AttackV1.1.csv', './Data/brutforce/InsiderV1.1.csv']
+
+SIMPLE DATASET (very simple data with the bruteforce adding sume little difficulties):--------------------
+['./Data/DVWA_Normal.csv', './Data/DVWA_SQLInjection1.csv', './Data/DVWA_SQLInjection2.csv', './Data/DVWA_SQLInjection3.csv', './Data/wordPressNormalandAttack/NormalV1.1.csv',  './Data/brutforce/AttackV1.1.csv', './Data/brutforce/InsiderV1.1.csv']
 Notes
 This project is intended for educational and research purposes.
 Please cite the original KubAnomaly DataSet repository if you use this project in any publications.
